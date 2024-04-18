@@ -44,7 +44,7 @@ console.log(fetchedUsers);
 ## Usage in React Applications
 
 ```javascript
-import { generateUniqueUsers } from "dummy-user-json";
+import { generateUniqueUsers } from "dummy-users-json";
 import { useEffect, useState } from "react";
 interface User {
   id: number;
