@@ -118,11 +118,12 @@ export default App;
 
 ## API
 
-### `generateUsers(count: number): User[]`
+### `generateUsers(count: number, delay(OPTIONAL): number): User[]`
 
 Generates an array of dummy users.
 
 - **`count`**: The number of users to generate.
+- **`delay`**: (OPTIONAL) defaults to 1000 ms, specifies the delay in milliseconds for simulating data fetching timing.
 
 Returns an array of user objects.
 
