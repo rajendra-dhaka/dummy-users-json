@@ -1,6 +1,6 @@
 {
   "name": "dummy-users-json",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "description": "A library to get dummy-users-json data",
   "main": "lib/index.js",
   "types": "lib/index.d.ts",
