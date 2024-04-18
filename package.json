@@ -1,0 +1,37 @@
+{
+  "name": "dummy-users-json",
+  "version": "0.0.1",
+  "description": "A library to get dummy-users-json data",
+  "main": "lib/index.js",
+  "types": "lib/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "prepare": "npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rajendra-dhaka/dummy-users-json"
+  },
+  "keywords": [
+    "dummy users",
+    "dummy data",
+    "fake user generator",
+    "random data",
+    "user-data",
+    "user generator",
+    "firstName",
+    "lastName",
+    "email",
+    "job",
+    "mock api",
+    "mock users api"
+  ],
+  "author": "Rajendra Dhaka",
+  "license": "MIT",
+  "devDependencies": {
+    "typescript": "^5.4.5"
+  },
+  "files": [
+    "lib/**/*"
+  ]
+}
