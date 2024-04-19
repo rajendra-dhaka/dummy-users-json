@@ -46,15 +46,21 @@ console.log(fetchedUsers);
 ```javascript
 import { generateUniqueUsers } from "dummy-users-json";
 import { useEffect, useState } from "react";
-interface User {
-  id: number;
-  fname: string;
-  lname: string;
-  email: string;
-  job: string;
-}
+
 function App() {
+  const [users, setUsers] = useState();
+
+  // Use below for TypeScript,instead of above useState
+  /*
+  interface User {
+    id: number;
+    fname: string;
+    lname: string;
+    email: string;
+    job: string;
+  }
   const [users, setUsers] = useState<User[] | undefined>();
+  */
 
   useEffect(() => {
     const fetchUsers = async () => {
